@@ -1,1 +1,1 @@
-image: quay.io/bioconda/bioconda-utils-build-env-cos7
+image: image: nfcore/gitpod:latest
