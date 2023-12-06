@@ -6,7 +6,7 @@ vscode:
 
 additionalRepositories:
   - url: https://github.com/bioconda/bioconda-recipes
-  checkoutLocation: bioconda-recipes
+    checkoutLocation: bioconda-recipes
 
 tasks:
   - name: bioconda-recipes
