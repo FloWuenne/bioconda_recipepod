@@ -1,5 +1,3 @@
-[Docker build](https://github.com/FloWuenne/bioconda_recipepod/blob/main/.github/workflows/docker-update.yml/badge.svg)
-
 # bioconda_recipepod
 Repository containing gitpod configuration for creating and testing bioconda recipes. 
 
