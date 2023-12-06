@@ -1,4 +1,4 @@
-image: wuennemannflorian/biocondapod:latest
+image: nfcore/gitpod:latest
 
 additionalRepositories:
   - url: https://github.com/bioconda/bioconda-recipes
