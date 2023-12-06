@@ -13,6 +13,9 @@ RUN apt-get update && apt-get install -y \
 
 ARG MAMBA_ROOT_PREFIX=/opt/conda
 
+# Add /opt/conda/bin to the PATH
+ENV PATH $MAMBA_ROOT_PREFIX/bin:$PATH
+
 # Install bioconda-utils and grayskull using micromamba
 RUN micromamba install -y -c conda-forge -c bioconda \
     bioconda-utils \

@@ -1,8 +1,15 @@
 image: nfcore/gitpod:latest
 
-additionalRepositories:
-  - url: https://github.com/bioconda/bioconda-recipes
-
 vscode:
   extensions: # based on nf-core.nf-core-extensionpack
     - esbenp.prettier-vscode # Markdown/CommonMark linting and style checking for Visual Studio Code
+
+additionalRepositories:
+  - url: https://github.com/bioconda/bioconda-recipes
+  checkoutLocation: bioconda-recipes
+
+tasks:
+  - name: bioconda-recipes
+    # change working directory as per configured in `checkoutLocation`
+    before: |
+      cd ../bioconda-recipes
