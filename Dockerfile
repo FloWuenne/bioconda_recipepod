@@ -1,8 +1,6 @@
 # Use the official micromamba image as a base
 FROM mambaorg/micromamba:latest
 
-SHELL ["/bin/bash", "--login", "-c"]
-
 # Set the base layer for micromamba
 USER root
 
